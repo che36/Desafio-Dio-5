@@ -1,4 +1,4 @@
-public class Conta {
+public class Conta implements IConta {
     private int agencia;
     private int numero;
     private double saldo;
@@ -25,5 +25,20 @@ public class Conta {
 
     public double getSaldo() {
         return saldo;
+    }
+
+    @Override
+    public void sacar(double valor) {
+
+    }
+
+    @Override
+    public void depositar(double valor) {
+
+    }
+
+    @Override
+    public void tranferir(double valor, Conta destino) {
+
     }
 }
