@@ -3,17 +3,6 @@ public abstract class Conta implements IConta {
     private int numero;
     private double saldo;
 
-    public void sacar() {
-
-    }
-
-    public void depositar() {
-
-    }
-
-    public void transferir() {
-
-    }
 
     public int getAgencia() {
         return agencia;
