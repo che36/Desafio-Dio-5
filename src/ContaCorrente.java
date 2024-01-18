@@ -1,8 +1,8 @@
 public class ContaCorrente extends Conta {
-    private static int SEQUENCIAL = 0;
+    private static int SEQUENCIAL = 1;
 
     public ContaCorrente() {
-        super.agencia = 1;
-        super.numero = SEQUENCIAL;
+        super.agencia = Conta.AGENCIA_PADRAO;
+        super.numero = SEQUENCIAL++;
     }
 }
