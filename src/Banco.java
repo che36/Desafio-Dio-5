@@ -11,4 +11,12 @@ public class Banco {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public List<Conta> getContas() {
+        return contas;
+    }
+
+    public void setContas(List<Conta> contas) {
+        this.contas = contas;
+    }
 }
