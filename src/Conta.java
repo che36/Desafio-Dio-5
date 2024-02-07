@@ -42,7 +42,7 @@ public abstract class Conta implements IConta {
     }
 
     protected void imprimirInfosComuns() {
-        System.out.println(String.format("Titular:%d", this.cliente.getNome()));
+        System.out.println(String.format("Titular:%s", this.cliente.getNome()));
         System.out.println("=== Extrato Conta Corrente === ");
         System.out.println(String.format("Agencia:%d", this.agencia));
         System.out.println(String.format("Conta:%d", this.numero));
